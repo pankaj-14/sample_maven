@@ -8,10 +8,10 @@
   <name>SpringExample</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
-    <snapshotRepository>
+    <Repository>
     <id>nexus-releases</id>
     <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </snapshotRepository>
+    </Repository>
   </distributionManagement>
 <build>
     <plugins>
