@@ -4,14 +4,14 @@
   <groupId>com.mkyong.common</groupId>
   <artifactId>SpringExample</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0.2-snapshot</version>
   <name>SpringExample</name>
   <url>http://maven.apache.org</url>
 <distributionManagement>
-    <Repository>
-    <id>nexus-releases</id>
-    <url>http://localhost:8081/nexus/content/repositories/releases</url>
-    </Repository>
+    <snapshotRepository>
+    <id>nexus-snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/snapshot</url>
+    </snapshotRepository>
   </distributionManagement>
 <build>
     <plugins>
